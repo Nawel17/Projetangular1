@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 6
+script: 
+  - "npm rebuild node-sass"
+  - "webpack"
+deploy:
+  provider: surge
+  domain: project-name.surge.sh
+  skip_cleanup: true
