@@ -8,10 +8,3 @@ before_script:
 - npm install -g @angular/cli
 script:
 - ng build --prod
-deploy:
-  provider: heroku
-  api_key:
-    secure: nPv4E2YbOWplJmux+hV8tuKaEptOBBSpd28gAG1ax9pTO2ENnLqoGRwB20m6Voco7gbn5QmI8pavZEnaVU9FKE4UTgsqA4UFDTHIx669zIAI93LGJGwz7vZla3QBLYJJmwhihs/RzOBI4+1FaYTXtYi0BOA/Q82Pd1F/kKwgj6IkTZnJTJhdroJLhUJOrXgW3UJy/Q8OvTYv6BITm7qEKTuVcUjja3M28FZNCGWJ5HwXWGbCpL0Qyhscj1/uX4Uff5485V0ME3PRBEfFVmnCKo1Ef0kIjo1INvgIQaAnn2bUW16OUVi1UG6TH4GEpzM8F3x1swNXTMeXVPTHabqlsaRd33IFVRu7cpb9vHuNtN9b2aCtTkpL75K6ZltTR63u0ZPzVbaSpwlG7fiDpLnl1m/X+38q2zJ63nK4kXOds0lyPx/pC3BZKosqeHg3Br85/GLR12CQKc+0typ/ylA7HGb2EHPGLSz0zewo1IkDNQeimV8ueYYl2mE3CGOh+y+Mk4EaclLls5PC7jJ0iRlT2IDfXCzXbigM3K1KLsPzxkq4kx4hpcDtn0xwLcVJdrikeM3RR0AaRG6yOzeBYhwH3MC0qV7PlWx++lasmtHBBQAOEhbeMK0KS/kd8Nq/wkngq2scMDCApBG8b8jf1fTW6ZnWUvCWGkYg4fSZz4bbiT0=
-  app: Projetangular1
-  on:
-    repo: Nawel17/Projetangular1
